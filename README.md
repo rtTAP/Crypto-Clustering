@@ -5,14 +5,6 @@
 
 # Module 19 Challenge: Crypto Clustering
 
-## Due Date
-1 Aug by 23:59
-
-## Points
-100
-
-## Submission
-Submit a text entry box or a website URL.
 
 ## Objective
 In this challenge, you’ll use your knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
@@ -138,4 +130,21 @@ The first five rows of the PCA DataFrame should appear as follows:
 - Using `hvPlot`, create a scatter plot by setting x="PC1" and y="PC2". Colour the graph points with the labels that you found by using K-means. Then add the crypto name to the `hover_cols` parameter to identify the cryptocurrency that each data point represents. (4 points)
 
 ### Visualise and Compare the Results (15 points)
-- Create a composite plot by using `hvPlot` and the plus sign (+) operator to compare the elbow curve that you created from the original data with the one that you created
+- Create a composite plot by using `hvPlot` and the plus sign (+) operator to compare the elbow curve that you created from the original data with the one that you created from the original data with the one that you created from the PCA data. (5 points)
+- Create a composite plot by using `hvPlot` and the plus (+) operator to compare the cryptocurrency clusters that resulted from using the original data with those that resulted from the PCA data. (5 points)
+- Answer the following question: Based on visually analysing the cluster analysis results, what’s the impact of using fewer features to cluster the data by using K-means? (5 points)
+
+### Coding Conventions and Formatting (10 points)
+- Place imports at the top of the file, just after any module comments and docstrings, and before module globals and constants. (3 points)
+- Name functions and variables with lowercase characters, with words separated by underscores. (2 points)
+- Follow DRY (Don't Repeat Yourself) principles, creating maintainable and reusable code. (3 points)
+- Use concise logic and creative engineering where possible. (2 points)
+
+### Deployment and Submission (10 points)
+- Submit a link to a GitHub repository that’s cloned to your local machine and that contains your files. (4 points)
+- Use the command line to add your files to the repository. (3 points)
+- Include appropriate commit messages in your files. (3 points)
+
+### Code Comments (10 points)
+- Be well commented with concise, relevant notes that other developers can understand. (10 points)
+
